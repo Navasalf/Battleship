@@ -1,0 +1,41 @@
+
+.tablero {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+
+table {
+width: 500px;
+height: 500px;
+border-collapse: collapse;
+display: flex;
+}
+th {
+border: 1px solid black;
+height: 30px;
+background-color: #999999;
+height: 20px;
+}
+
+td {
+width: 40px;
+height: 40px;
+border: 1px solid black;
+text-align: center;
+}
+
+th:first-of-type {
+width: auto;
+border: none;
+background-color: white;
+}
+
+td:first-of-type {
+width: 20px;
+background-color: #999999;
+
+}
